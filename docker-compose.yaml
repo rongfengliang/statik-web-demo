@@ -1,0 +1,7 @@
+version: "3"
+services:
+   ui:
+     image: dalongrong/webui
+     build: ./
+     ports:
+     - "8080:10080"

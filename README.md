@@ -1,6 +1,6 @@
 # statik emberd static resource for golang application
 
-## How  to Run
+## How  to Run(local)
 
 * install statik
 
@@ -23,4 +23,18 @@ go get github.com/rakyll/statik
 
 ```code
 go build -o webui .
+```
+
+## With docker
+
+* build
+
+```code
+docker-compose build
+```
+
+* run
+
+```code
+dokcer-compose up -d
 ```
