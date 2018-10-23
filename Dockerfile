@@ -8,5 +8,6 @@ RUN cd $D &&  go generate && go build -o webui . && cp webui /tmp/
 
 FROM alpine:latest
 WORKDIR /app
+EXPOSE 10080
 COPY --from=build-env /tmp/webui /app/webui
 CMD ["./webui"]
