@@ -1,4 +1,4 @@
-# statik emberd static resource for golang application
+# statik embeded static resource for golang application
 
 ## How  to Run(local)
 
